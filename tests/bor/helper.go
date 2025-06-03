@@ -13,6 +13,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/golang/mock/gomock"
 
 	"github.com/tenderly/net-polygon/accounts"
@@ -32,7 +33,6 @@ import (
 	"github.com/tenderly/net-polygon/core/types"
 	"github.com/tenderly/net-polygon/core/vm"
 	"github.com/tenderly/net-polygon/crypto"
-	"github.com/tenderly/net-polygon/crypto/secp256k1"
 	"github.com/tenderly/net-polygon/eth"
 	"github.com/tenderly/net-polygon/eth/downloader"
 	"github.com/tenderly/net-polygon/eth/ethconfig"
