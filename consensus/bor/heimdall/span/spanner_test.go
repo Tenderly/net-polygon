@@ -6,14 +6,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/abi"
-	"github.com/ethereum/go-ethereum/consensus/bor/api"
-	"github.com/ethereum/go-ethereum/consensus/bor/valset"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/consensus/bor/abi"
+	"github.com/tenderly/net-polygon/consensus/bor/api"
+	"github.com/tenderly/net-polygon/consensus/bor/valset"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 func TestGetCurrentValidatorsByBlockNrOrHash(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon/common/hexutil"
+	"github.com/tenderly/net-polygon/common/math"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/rpc"
 
 	protobor "github.com/maticnetwork/polyproto/bor"
 	protoutil "github.com/maticnetwork/polyproto/utils"

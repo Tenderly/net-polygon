@@ -24,8 +24,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/internal/version"
+	"github.com/tenderly/net-polygon/params"
 )
 
 var (

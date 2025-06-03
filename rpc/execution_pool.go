@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/JekaMas/workerpool"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-polygon/metrics"
 )
 
 type SafePool struct {

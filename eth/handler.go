@@ -24,27 +24,26 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/fetcher"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/consensus/beacon"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/forkid"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/txpool"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/eth/downloader"
+	"github.com/tenderly/net-polygon/eth/fetcher"
+	"github.com/tenderly/net-polygon/eth/protocols/eth"
+	"github.com/tenderly/net-polygon/eth/protocols/snap"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/event"
+	"github.com/tenderly/net-polygon/internal/ethapi"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/metrics"
+	"github.com/tenderly/net-polygon/p2p"
+	"github.com/tenderly/net-polygon/p2p/enode"
+	"github.com/tenderly/net-polygon/triedb/pathdb"
 )
 
 const (
@@ -180,7 +179,7 @@ func newHandler(config *handlerConfig) (*handler, error) {
 		// fullBlock, snapBlock := h.chain.CurrentBlock(), h.chain.CurrentSnapBlock()
 
 		// TODO - uncomment when we (Polygon-PoS, bor) have snap sync/pbss
-		// For more info - https://github.com/ethereum/go-ethereum/pull/28171
+		// For more info - https://github.com/tenderly/net-polygon/pull/28171
 		// if fullBlock.Number.Uint64() == 0 && snapBlock.Number.Uint64() > 0 {
 		// 	h.snapSync.Store(true)
 		// 	log.Warn("Switch sync mode from full sync to snap sync", "reason", "snap sync incomplete")

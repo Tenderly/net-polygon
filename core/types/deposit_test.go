@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-polygon/accounts/abi"
+	"github.com/tenderly/net-polygon/common"
 )
 
 var (

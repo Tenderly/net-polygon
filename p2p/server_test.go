@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/internal/testlog"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/p2p/enode"
+	"github.com/tenderly/net-polygon/p2p/enr"
+	"github.com/tenderly/net-polygon/p2p/rlpx"
 )
 
 type testTransport struct {

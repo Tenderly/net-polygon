@@ -27,19 +27,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/consensus"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/state/snapshot"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/node"
+	"github.com/tenderly/net-polygon/rlp"
+	"github.com/tenderly/net-polygon/trie"
 
-	"github.com/ethereum/go-ethereum/triedb"
 	"github.com/prometheus/tsdb/fileutil"
+	"github.com/tenderly/net-polygon/triedb"
 )
 
 const (

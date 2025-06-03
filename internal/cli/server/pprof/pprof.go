@@ -10,7 +10,7 @@ import (
 	"runtime/trace"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/log"
 )
 
 // Profile generates a pprof.Profile report for the given profile name.

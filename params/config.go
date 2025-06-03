@@ -22,8 +22,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params/forks"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/params/forks"
 )
 
 // Genesis hashes to enforce below configs on.

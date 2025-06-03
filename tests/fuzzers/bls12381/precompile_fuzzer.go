@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/vm"
 )
 
 const (

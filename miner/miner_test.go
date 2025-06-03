@@ -22,15 +22,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/state"
+	"github.com/tenderly/net-polygon/core/txpool"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/eth/downloader"
+	"github.com/tenderly/net-polygon/event"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/trie"
 )
 
 type mockBackend struct {

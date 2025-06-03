@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/internal/cli/flagset"
+	"github.com/tenderly/net-polygon/internal/cli/server"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/node"
 
 	"github.com/mitchellh/cli"
 )

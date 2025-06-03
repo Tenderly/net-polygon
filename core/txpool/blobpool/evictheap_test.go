@@ -21,9 +21,9 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/params"
 )
 
 var rand = mrand.New(mrand.NewSource(1))

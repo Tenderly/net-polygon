@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/eth/protocols/eth"
+	"github.com/tenderly/net-polygon/p2p"
 )
 
 // TestEthProtocolNegotiation tests whether the test suite

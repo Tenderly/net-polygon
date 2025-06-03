@@ -27,13 +27,13 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/tenderly/net-polygon/common/mclock"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/internal/testlog"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/p2p/enode"
+	"github.com/tenderly/net-polygon/p2p/enr"
+	"github.com/tenderly/net-polygon/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

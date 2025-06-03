@@ -22,9 +22,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/net-polygon/internal/debug"
+	"github.com/tenderly/net-polygon/internal/flags"
+	"github.com/tenderly/net-polygon/p2p/enode"
 )
 
 var app = flags.NewApp("go-ethereum devp2p tool")

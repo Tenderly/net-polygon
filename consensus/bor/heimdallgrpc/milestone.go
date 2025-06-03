@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall/milestone"
+	"github.com/tenderly/net-polygon/log"
 
 	proto "github.com/maticnetwork/polyproto/heimdall"
 	protoutils "github.com/maticnetwork/polyproto/utils"

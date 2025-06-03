@@ -27,9 +27,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/p2p/enr"
+	"github.com/tenderly/net-polygon/p2p/netutil"
 )
 
 const (

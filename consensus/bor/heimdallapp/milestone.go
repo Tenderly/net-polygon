@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall/milestone"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/log"
 
 	chTypes "github.com/maticnetwork/heimdall/checkpoint/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"

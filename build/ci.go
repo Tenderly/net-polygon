@@ -54,10 +54,10 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/signify"
-	"github.com/ethereum/go-ethereum/internal/build"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/crypto/signify"
+	"github.com/tenderly/net-polygon/internal/build"
+	"github.com/tenderly/net-polygon/params"
 )
 
 var (

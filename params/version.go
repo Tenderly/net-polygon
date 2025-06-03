@@ -19,7 +19,7 @@ package params
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-polygon/metrics"
 )
 
 const (

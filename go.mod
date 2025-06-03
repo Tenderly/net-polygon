@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/tenderly/net-polygon
 
 go 1.23.6
 
@@ -66,7 +66,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20
 	github.com/mitchellh/cli v1.1.5
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/naoina/toml v0.1.1
+	github.com/naoina/toml v0.1.2-0.20170918210437-9fafd6967416
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/pelletier/go-toml v1.9.5
 	github.com/peterh/liner v1.2.2
@@ -294,7 +294,7 @@ replace github.com/tendermint/tendermint => github.com/maticnetwork/tendermint v
 
 replace github.com/tendermint/tm-db => github.com/tendermint/tm-db v0.2.0
 
-replace github.com/ethereum/go-ethereum => github.com/maticnetwork/bor v1.5.5
+replace github.com/tenderly/net-polygon => github.com/maticnetwork/bor v1.5.5
 
 replace github.com/Masterminds/goutils => github.com/Masterminds/goutils v1.1.1
 

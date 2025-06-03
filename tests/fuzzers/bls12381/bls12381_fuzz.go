@@ -30,9 +30,9 @@ import (
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"github.com/ethereum/go-ethereum/common"
 	bls12381 "github.com/kilic/bls12-381"
 	blst "github.com/supranational/blst/bindings/go"
+	"github.com/tenderly/net-polygon/common"
 )
 
 func fuzzG1SubgroupChecks(data []byte) int {
