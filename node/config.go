@@ -27,12 +27,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/p2p"
+	"github.com/tenderly/net-polygon/p2p/enode"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 const (

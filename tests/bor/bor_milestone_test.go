@@ -13,14 +13,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/core"
+	"github.com/tenderly/net-polygon/common/fdlimit"
+	"github.com/tenderly/net-polygon/core"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/eth"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/node"
+	"github.com/tenderly/net-polygon/p2p/enode"
 )
 
 var (

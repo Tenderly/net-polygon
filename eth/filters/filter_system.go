@@ -25,17 +25,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/lru"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/bloombits"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/event"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 // Config represents the configuration of the filter system.

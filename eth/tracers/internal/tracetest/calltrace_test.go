@@ -26,17 +26,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/hexutil"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/core/vm"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/eth/tracers"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/rlp"
+	"github.com/tenderly/net-polygon/tests"
 )
 
 // callLog is the result of LOG opCode

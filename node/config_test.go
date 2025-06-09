@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

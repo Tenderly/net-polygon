@@ -26,9 +26,9 @@ import (
 
 	"github.com/kylelemons/godebug/diff"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/rlp"
 	"github.com/holiman/uint256"
 )
 

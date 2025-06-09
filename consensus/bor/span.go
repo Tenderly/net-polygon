@@ -3,13 +3,13 @@ package bor
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/span"
-	"github.com/ethereum/go-ethereum/consensus/bor/valset"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall/span"
+	"github.com/tenderly/net-polygon/consensus/bor/valset"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/state"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 //go:generate mockgen -destination=./span_mock.go -package=bor . Spanner

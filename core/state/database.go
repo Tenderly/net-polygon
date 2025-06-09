@@ -20,17 +20,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/utils"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/lru"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/state/snapshot"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/trie"
+	"github.com/tenderly/net-polygon/trie/trienode"
+	"github.com/tenderly/net-polygon/trie/utils"
+	"github.com/tenderly/net-polygon/triedb"
 )
 
 const (

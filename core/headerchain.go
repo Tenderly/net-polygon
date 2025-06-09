@@ -23,15 +23,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/lru"
+	"github.com/tenderly/net-polygon/consensus"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/rlp"
 )
 
 const (

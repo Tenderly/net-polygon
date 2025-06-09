@@ -33,7 +33,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/params"
 )
 
 var (

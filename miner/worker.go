@@ -29,25 +29,25 @@ import (
 	"github.com/holiman/uint256"
 	"go.opentelemetry.io/otel"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/tracing"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/bor"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/blockstm"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/tracing"
+	"github.com/tenderly/net-polygon/consensus"
+	"github.com/tenderly/net-polygon/consensus/bor"
+	"github.com/tenderly/net-polygon/consensus/misc/eip1559"
+	"github.com/tenderly/net-polygon/consensus/misc/eip4844"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/blockstm"
+	"github.com/tenderly/net-polygon/core/state"
+	"github.com/tenderly/net-polygon/core/stateless"
+	"github.com/tenderly/net-polygon/core/txpool"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/core/vm"
+	"github.com/tenderly/net-polygon/event"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/metrics"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/rlp"
+	"github.com/tenderly/net-polygon/trie"
 )
 
 const (
@@ -1561,7 +1561,7 @@ func (w *worker) commit(env *environment, interval func(), update bool, start ti
 			interval()
 		}
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/ethereum/go-ethereum/issues/24299
+		// https://github.com/tenderly/net-polygon/issues/24299
 		env := env.copy()
 		// Withdrawals are set to nil here, because this is only called in PoW.
 		block, err := w.engine.FinalizeAndAssemble(w.chain, env.header, env.state, &types.Body{

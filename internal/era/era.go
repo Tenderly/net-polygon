@@ -28,10 +28,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/era/e2store"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/internal/era/e2store"
+	"github.com/tenderly/net-polygon/rlp"
 	"github.com/golang/snappy"
 )
 

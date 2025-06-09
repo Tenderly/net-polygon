@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/tracing"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/eth/tracers"
+	"github.com/tenderly/net-polygon/params"
 )
 
 func init() {

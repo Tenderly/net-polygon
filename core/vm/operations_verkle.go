@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/math"
+	"github.com/tenderly/net-polygon/params"
 )
 
 func gasSStore4762(evm *EVM, contract *Contract, stack *Stack, mem *Memory, memorySize uint64) (uint64, error) {

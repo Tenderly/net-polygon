@@ -12,12 +12,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/span"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-polygon/consensus/bor/clerk"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall/milestone"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall/span"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/metrics"
 )
 
 var (

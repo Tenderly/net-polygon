@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/log"
 )
 
 // HashScheme is the legacy hash-based state scheme with which trie nodes are

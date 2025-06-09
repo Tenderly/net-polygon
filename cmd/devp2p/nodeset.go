@@ -24,8 +24,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/p2p/enode"
 )
 
 const jsonIndent = "    "

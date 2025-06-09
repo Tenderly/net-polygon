@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/tenderly/net-polygon"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 // SetChainConfig sets chain config

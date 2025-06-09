@@ -19,11 +19,11 @@ package vm
 import (
 	"math"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/tracing"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/params"
 	"github.com/holiman/uint256"
 )
 

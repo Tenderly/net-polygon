@@ -12,14 +12,14 @@ import (
 
 	grpc_net_conn "github.com/JekaMas/go-grpc-net-conn"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/internal/cli/server/pprof"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/eth/tracers"
+	"github.com/tenderly/net-polygon/eth/tracers/logger"
+	"github.com/tenderly/net-polygon/internal/cli/server/pprof"
+	"github.com/tenderly/net-polygon/internal/cli/server/proto"
+	"github.com/tenderly/net-polygon/p2p"
+	"github.com/tenderly/net-polygon/p2p/enode"
 )
 
 const chunkSize = 1024 * 1024 * 1024

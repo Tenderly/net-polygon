@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/math"
+	"github.com/tenderly/net-polygon/core/tracing"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/metrics"
 
 	lru "github.com/hashicorp/golang-lru"
 

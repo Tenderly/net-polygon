@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/log"
 )
 
 type Chain struct {

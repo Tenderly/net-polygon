@@ -25,7 +25,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/log"
 )
 
 type watcher struct {

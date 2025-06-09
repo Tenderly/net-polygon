@@ -29,12 +29,12 @@ import (
 	"time"
 
 	"github.com/donovanhide/eventsource"
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/beacon/merkle"
+	"github.com/tenderly/net-polygon/beacon/params"
+	"github.com/tenderly/net-polygon/beacon/types"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/hexutil"
+	"github.com/tenderly/net-polygon/log"
 )
 
 var (

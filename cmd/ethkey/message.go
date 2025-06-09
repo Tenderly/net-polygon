@@ -23,11 +23,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-polygon/accounts"
+	"github.com/tenderly/net-polygon/accounts/keystore"
+	"github.com/tenderly/net-polygon/cmd/utils"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/crypto"
 )
 
 type outputSign struct {

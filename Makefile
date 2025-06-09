@@ -16,7 +16,7 @@ GOPATH = $(shell go env GOPATH)
 
 GIT_COMMIT ?= $(shell git rev-list -1 HEAD)
 
-PACKAGE = github.com/ethereum/go-ethereum
+PACKAGE = github.com/tenderly/net-polygon
 GO_FLAGS += -buildvcs=false
 GO_LDFLAGS += -ldflags "-X ${PACKAGE}/params.GitCommit=${GIT_COMMIT}"
 

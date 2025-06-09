@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/ethdb/leveldb"
+	"github.com/tenderly/net-polygon/ethdb/memorydb"
+	"github.com/tenderly/net-polygon/ethdb/pebble"
+	"github.com/tenderly/net-polygon/log"
 	"github.com/olekukonko/tablewriter"
 )
 

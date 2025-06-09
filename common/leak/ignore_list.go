@@ -5,7 +5,7 @@ import "go.uber.org/goleak"
 func IgnoreList() []goleak.Option {
 	return []goleak.Option{
 		// a list of goroutne leaks that hard to fix due to external dependencies or too big refactoring needed
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/core.(*txSenderCacher).cache"),
 		goleak.IgnoreTopFunction("github.com/rjeczalik/notify.(*recursiveTree).dispatch"),
 		goleak.IgnoreTopFunction("github.com/rjeczalik/notify.(*recursiveTree).internal"),
 		goleak.IgnoreTopFunction("github.com/rjeczalik/notify.(*nonrecursiveTree).dispatch"),
@@ -13,16 +13,16 @@ func IgnoreList() []goleak.Option {
 		goleak.IgnoreTopFunction("github.com/rjeczalik/notify._Cfunc_CFRunLoopRun"),
 
 		// todo: this leaks should be fixed
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/accounts/abi/bind/backends.nullSubscription.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/accounts/abi/bind/backends.(*filterBackend).SubscribeNewTxsEvent.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/accounts/abi/bind/backends.(*filterBackend).SubscribePendingLogsEvent.nullSubscription.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/consensus/ethash.(*remoteSealer).loop"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core.(*BlockChain).updateFutureBlocks"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core/state/snapshot.(*diskLayer).generate"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core/state.(*subfetcher).loop"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/eth/filters.(*EventSystem).eventLoop"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/event.NewSubscription.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/event.NewSubscription"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/metrics.(*meterArbiter).tick"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/accounts/abi/bind/backends.nullSubscription.func1"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/accounts/abi/bind/backends.(*filterBackend).SubscribeNewTxsEvent.func1"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/accounts/abi/bind/backends.(*filterBackend).SubscribePendingLogsEvent.nullSubscription.func1"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/consensus/ethash.(*remoteSealer).loop"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/core.(*BlockChain).updateFutureBlocks"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/core/state/snapshot.(*diskLayer).generate"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/core/state.(*subfetcher).loop"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/eth/filters.(*EventSystem).eventLoop"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/event.NewSubscription.func1"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/event.NewSubscription"),
+		goleak.IgnoreTopFunction("github.com/tenderly/net-polygon/metrics.(*meterArbiter).tick"),
 	}
 }

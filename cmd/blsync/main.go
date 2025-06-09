@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon/beacon/blsync"
+	"github.com/tenderly/net-polygon/cmd/utils"
+	"github.com/tenderly/net-polygon/internal/debug"
+	"github.com/tenderly/net-polygon/internal/flags"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/node"
+	"github.com/tenderly/net-polygon/rpc"
 	cli "github.com/urfave/cli/v2"
 )
 

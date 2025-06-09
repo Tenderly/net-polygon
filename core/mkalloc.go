@@ -33,9 +33,9 @@ import (
 	"slices"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/rlp"
 )
 
 type allocItem struct {

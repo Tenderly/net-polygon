@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
+	"github.com/tenderly/net-polygon/cmd/utils"
+	"github.com/tenderly/net-polygon/crypto"
+	"github.com/tenderly/net-polygon/internal/cli/flagset"
 )
 
 type AccountImportCommand struct {

@@ -9,8 +9,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
+	"github.com/tenderly/net-polygon/internal/cli/flagset"
+	"github.com/tenderly/net-polygon/internal/cli/server/proto"
 )
 
 type DebugPprofCommand struct {

@@ -32,12 +32,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/core/vm"
+	"github.com/tenderly/net-polygon/eth/tracers/logger"
 	"github.com/holiman/uint256"
 )
 

@@ -11,25 +11,25 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/consensus/beacon" //nolint:typecheck
-	"github.com/ethereum/go-ethereum/consensus/bor"    //nolint:typecheck
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/graphql"
-	"github.com/ethereum/go-ethereum/internal/cli/server/pprof"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/metrics/influxdb"
-	"github.com/ethereum/go-ethereum/metrics/prometheus"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon/accounts"
+	"github.com/tenderly/net-polygon/accounts/keystore"
+	"github.com/tenderly/net-polygon/cmd/utils"
+	"github.com/tenderly/net-polygon/consensus/beacon" //nolint:typecheck
+	"github.com/tenderly/net-polygon/consensus/bor"    //nolint:typecheck
+	"github.com/tenderly/net-polygon/consensus/clique"
+	"github.com/tenderly/net-polygon/eth"
+	"github.com/tenderly/net-polygon/eth/ethconfig"
+	"github.com/tenderly/net-polygon/eth/tracers"
+	"github.com/tenderly/net-polygon/ethstats"
+	"github.com/tenderly/net-polygon/graphql"
+	"github.com/tenderly/net-polygon/internal/cli/server/pprof"
+	"github.com/tenderly/net-polygon/internal/cli/server/proto"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/metrics"
+	"github.com/tenderly/net-polygon/metrics/influxdb"
+	"github.com/tenderly/net-polygon/metrics/prometheus"
+	"github.com/tenderly/net-polygon/node"
+	"github.com/tenderly/net-polygon/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"go.opentelemetry.io/otel"
@@ -42,8 +42,8 @@ import (
 	"google.golang.org/grpc/reflection"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/tenderly/net-polygon/eth/tracers/js"
+	_ "github.com/tenderly/net-polygon/eth/tracers/native"
 
 	protobor "github.com/maticnetwork/polyproto/bor"
 )

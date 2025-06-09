@@ -6,9 +6,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/tenderly/net-polygon/eth"
+	"github.com/tenderly/net-polygon/eth/ethconfig"
+	"github.com/tenderly/net-polygon/node"
 )
 
 var (

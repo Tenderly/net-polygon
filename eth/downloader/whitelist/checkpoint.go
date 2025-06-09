@@ -1,10 +1,10 @@
 package whitelist
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/metrics"
 )
 
 type checkpoint struct {

@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/params"
 	"github.com/holiman/uint256"
 )
 

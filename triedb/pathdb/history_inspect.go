@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/log"
 )
 
 // HistoryStats wraps the history inspection statistics.

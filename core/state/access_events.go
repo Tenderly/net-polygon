@@ -19,10 +19,10 @@ package state
 import (
 	"maps"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/math"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/trie/utils"
 	"github.com/holiman/uint256"
 )
 

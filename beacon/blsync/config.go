@@ -17,10 +17,10 @@
 package blsync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/tenderly/net-polygon/beacon/types"
+	"github.com/tenderly/net-polygon/cmd/utils"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/hexutil"
 	"github.com/urfave/cli/v2"
 )
 

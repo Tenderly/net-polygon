@@ -4,8 +4,8 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-polygon/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/net-polygon/log"
 
 	hmTypes "github.com/maticnetwork/heimdall/types"
 )

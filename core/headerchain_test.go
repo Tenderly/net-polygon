@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/tenderly/net-polygon/consensus"
+	"github.com/tenderly/net-polygon/consensus/ethash"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/triedb"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

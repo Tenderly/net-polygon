@@ -22,7 +22,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/params"
 )
 
 func TestTransaction(t *testing.T) {

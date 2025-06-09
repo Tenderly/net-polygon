@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/net-polygon/consensus"
+	"github.com/tenderly/net-polygon/core/state"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

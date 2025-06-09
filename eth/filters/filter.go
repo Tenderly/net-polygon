@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/bloombits"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

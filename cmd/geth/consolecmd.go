@@ -24,10 +24,10 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/tenderly/net-polygon/cmd/utils"
+	"github.com/tenderly/net-polygon/console"
+	"github.com/tenderly/net-polygon/internal/flags"
+	"github.com/tenderly/net-polygon/node"
 )
 
 var (

@@ -7,15 +7,15 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil" //nolint:typecheck
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/hexutil" //nolint:typecheck
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/state"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/core/vm"
+	"github.com/tenderly/net-polygon/params"
+	"github.com/tenderly/net-polygon/triedb"
 )
 
 func TestGenesisContractChange(t *testing.T) {

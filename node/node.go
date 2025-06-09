@@ -32,16 +32,16 @@ import (
 
 	"github.com/gofrs/flock"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon/accounts"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/hexutil"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/ethdb/memorydb"
+	"github.com/tenderly/net-polygon/event"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/p2p"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 // Node is a container on which services can be registered.

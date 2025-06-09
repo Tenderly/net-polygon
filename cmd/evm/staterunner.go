@@ -24,12 +24,12 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/state"
+	"github.com/tenderly/net-polygon/core/vm"
+	"github.com/tenderly/net-polygon/eth/tracers/logger"
+	"github.com/tenderly/net-polygon/tests"
 )
 
 var stateTestCommand = &cli.Command{

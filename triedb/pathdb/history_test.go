@@ -22,13 +22,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/testrand"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/ethdb"
+	"github.com/tenderly/net-polygon/internal/testrand"
+	"github.com/tenderly/net-polygon/rlp"
+	"github.com/tenderly/net-polygon/trie/triestate"
 )
 
 // randomStateSet generates a random state change set.

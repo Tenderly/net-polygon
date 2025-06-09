@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/common/mclock"
+	"github.com/tenderly/net-polygon/core/txpool"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/params"
 )
 
 var (

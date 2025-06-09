@@ -26,9 +26,9 @@ import (
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-polygon/internal/version"
+	"github.com/tenderly/net-polygon/log"
+	"github.com/tenderly/net-polygon/params"
 )
 
 // usecolor defines whether the CLI help should use colored output or normal dumb

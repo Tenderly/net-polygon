@@ -22,7 +22,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-polygon/common"
 )
 
 type accessList struct {

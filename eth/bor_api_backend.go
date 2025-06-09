@@ -5,14 +5,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-polygon"
+	"github.com/tenderly/net-polygon/common"
+	"github.com/tenderly/net-polygon/consensus/bor"
+	"github.com/tenderly/net-polygon/core"
+	"github.com/tenderly/net-polygon/core/rawdb"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/event"
+	"github.com/tenderly/net-polygon/rpc"
 )
 
 var errBorEngineNotAvailable error = errors.New("Only available in Bor engine")

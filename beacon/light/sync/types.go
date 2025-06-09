@@ -17,9 +17,9 @@
 package sync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-polygon/beacon/light/request"
+	"github.com/tenderly/net-polygon/beacon/types"
+	"github.com/tenderly/net-polygon/common"
 )
 
 var (

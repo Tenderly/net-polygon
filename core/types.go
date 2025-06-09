@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/tenderly/net-polygon/core/state"
+	"github.com/tenderly/net-polygon/core/types"
+	"github.com/tenderly/net-polygon/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It
